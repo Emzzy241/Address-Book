@@ -21,3 +21,12 @@
 #contact{
     display: none;
 }
+
+.success span {
+    color: blue;
+}
+.success span:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
