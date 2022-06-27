@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/scripts.js"></script>
+</head>
+<body>
+
+    <h1>Address Book by Mojiboye Emmanuel</h1> <br>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 col-sm-6 col-xs-6 cl-lg-6">
+                <form class="form-group" id="contactValue">
+                    <label >Firstname: </label>
+                    <input type="text" class="form-control val" placeholder="firstname" required> <br>
+
+                    <label >Secondname: </label>
+                    <input type="text" class="form-control val1" placeholder="secondname" required> <br>
+
+                    <label >Lastname:</label>
+                    <input type="text" class="form-control val2" placeholder="lastname" required> <br>
+
+                    <label >Phone Number:</label>
+                    <input  type="number" class="form-control val3" placeholder="Phone number" required> <br>
+
+                    <label >Skin color:</label>
+                    <select name="" id="" class="form-control val4">
+                        <option value="1">Black</option>
+                        <option value="2">White</option>
+                        <option value="3">Brown</option>
+                    </select> <br>
+
+                    <label >Age:</label>
+                    <input type="number" class="form-control val5" required> <br>
+
+                    <label >Place You met:</label>
+                    <input type="text" class="form-control val6" placeholder="place you met" required> <br>
+
+                    <label >Date You met:</label>
+                    <input type="date" class="form-control val7" required> <br>
+
+                    <label >State of Origin:</label>
+                    <input type="text" class="form-control val8" placeholder="state of origin" required>
+                </form>
+
+                <button type="submit" class="btn btn-success">Add to Contacts</button>
+            </div> <br>
+
+            <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6 bg-warning rounded">
+                
+                <div class="storing">
+                    <h4> One Contact stored, tap to <span >view</span></h4>
+                </div>
+
+                <div id="contact">
+                    <br>
+                    <h3>Contact Info</h3>
+                    <label >Name: <span class="val2"></span> <span class="val"></span> <span class="val1"></span> </label> <br> <br>
+                    <label >Age: <span class="val5"></span></label> <br> <br>
+                    <label >Phone number: <span class="val3"></span> </label> <br> <br>
+                    <label >Place you met: <span class="val6"></span> </label> <br> <br>
+                    <label >Date you met: <span class="val7"></span> </label>  <br> <br> 
+                    <label >Skin color: <span class="val4"></span> </label>  <br> <br>
+                    <label >State of Origin: <span class="val8"></span> </label>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

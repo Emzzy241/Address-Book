@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.storing{
+    display: none;
+}
+.storing span {
+    color: blue;
+}
+.storing span:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
