@@ -16,15 +16,15 @@ $(document).ready( function(){
 
         // Now let us append each of our values gotten from the user to show in the contact box
 
-        $(".val").append(firstname);
-        $(".val1").append(secondname);
-        $(".val2").append(lastname);
-        $(".val3").append(phone);
-        $(".val4").append(skinColor);
-        $(".val5").append(age);
-        $(".val6").append(place);
-        $(".val7").append(date);
-        $(".val8").append(state);
+        $(".val").text(firstname);
+        $(".val1").text(secondname);
+        $(".val2").text(lastname);
+        $(".val3").text(phone);
+        $(".val4").text(skinColor);
+        $(".val5").text(age);
+        $(".val6").text(place);
+        $(".val7").text(date);
+        $(".val8").text(state);
 
 
 
@@ -38,8 +38,8 @@ $(document).ready( function(){
         $(".success1").click( function(){
             $("#contact").hide();
             
-            $(".success1").toggle();
-            $(".storing").toggle();
+            
+            $(".storing").show();
         });
     });
 });
